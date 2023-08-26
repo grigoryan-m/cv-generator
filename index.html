@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV genereator</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div class="wrapper">
-
-
+        <h1>Free CV generator</h1>
+        <form action="">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Enter your name: <input id="name" type="text" placeholder="Your name..." id="name"></label>
+          </fieldset>
+          <fieldset>
+            <legend>Contacts</legend>
+            <label for="contacts">Your contacts here:
+              <input type="text" id="phone" name="contacts1" class="contacts" placeholder="Phone, address, etc.">
+              <input type="text" id="email" name="contacts2" class="contacts" placeholder="Email, telegram, etc.">
+              <input type="text" id="portfolio" name="contacts3" class="contacts" placeholder="LinkedIn, Github, etc."> 
+            </label>
+          </fieldset>
+        </form>
+        <button type="submit" id="done">Done!</button>
+        <a href="#" id="link">Your CV!</a>
     </div>
 </body>
 </html>
