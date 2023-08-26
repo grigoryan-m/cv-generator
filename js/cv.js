@@ -12,9 +12,10 @@ function findGetParameter(parameterName) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  const data = [findGetParameter("name"), findGetParameter("con1"), findGetParameter("con2"), findGetParameter("con3")];
+  const data = [findGetParameter("name"), findGetParameter("con1"), findGetParameter("con2"), findGetParameter("con3"), findGetParameter("sum")];
   document.getElementById("name").innerText = data[0];
   document.getElementById("phone").innerText = data[1];
   document.getElementById("email").innerText = data[2];
   document.getElementById("portfolio").innerText = data[3];
+  document.getElementById("summary").innerText = data[4];
 });
