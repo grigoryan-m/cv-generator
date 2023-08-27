@@ -24,3 +24,6 @@ textarea{
   min-width: 300px;
   resize: none; 
 }
+#skills input{
+  margin-bottom: 15px;
+}
