@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // First few sections data (GET parameters)
         const data = [document.getElementById('name').value, document.getElementById('phone').value, document.getElementById('email').value, document.getElementById('portfolio').value, document.getElementById('summary').value];
         // Generating link with first sections data
-        let url="/cv.html?name=" + data[0] + "&con1=" + data[1] + "&con2=" + data[2] + "&con3=" + data[3] + "&sum=" + data[4];    
+        let url="cv.html?name=" + data[0] + "&con1=" + data[1] + "&con2=" + data[2] + "&con3=" + data[3] + "&sum=" + data[4];    
         
         // Getting all the data from skills inputs
         let skills = document.getElementsByClassName('skill');
