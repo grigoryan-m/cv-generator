@@ -6,12 +6,13 @@
     <title>Your CV</title>
     <link rel="stylesheet" href="../styles/cv.css">
     <script src="../js/cv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <div class="wrapper">
       <section id="header">
         <div class="name-div">
-          <h2 id="name"></h2>
+          <h3 id="name"></h3>
         </div>
         <div class="contacts-div">
           <ul>
@@ -34,6 +35,16 @@
           <ul id="skills_list">
             
           </ul>
+        </section>
+        <section class="exp_section section">
+          <h3>Career and experience</h3>
+          <hr/>
+          <p id="career"></p>
+        </section>
+        <section class="lang_section section">
+          <h3>Languages</h3>
+          <hr/>
+          <p id="lang"></p>
         </section>
       </main>
     </div>

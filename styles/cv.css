@@ -1,16 +1,16 @@
 .wrapper{
-    width: 800px;
-    margin: 0 auto;
+    max-width:500px;
+    margin: 0;
 }
 #header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 800px;
     min-height: 150px;
     background-color: rgb(0, 170,255);
     color: white;
-    padding: 0 60px;
+    padding: 0 10px;
 }
 #name{
     margin: 0;
@@ -23,16 +23,18 @@
     justify-content: center;
 }
 .contacts-div ul li{
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 .section{
   width: 798px;
-  padding: 0 60px;
-  margin-top: 30px;
+  padding: 0 10px;
+  margin-top: 60px;
 }
 .skills_section ul{
   column-count: 2;
+}
+.skills_section ul li{
+  margin-bottom: 15px;
 }
 hr{
   width: 790px;
